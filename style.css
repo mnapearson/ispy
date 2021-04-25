@@ -1,0 +1,91 @@
+* {
+  margin: 0 auto;
+  font-family: "Roboto Mono", monospace;
+}
+
+header img {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.option:hover {
+  background: red;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.option {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: 100px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.posts {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-rows: auto;
+  column-gap: 2rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.col {
+  display: flex;
+  background-color: red;
+  color: white;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.post-date {
+  margin-top: 1rem;
+}
+
+.row {
+  margin-top: 2rem;
+}
+
+.row p {
+  margin-bottom: 0.5rem;
+}
